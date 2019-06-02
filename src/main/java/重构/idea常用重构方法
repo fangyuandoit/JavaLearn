@@ -1,0 +1,6 @@
+move method 142
+replace Temp with Query 120
+Extract Method 110
+replace type code with state/strategy
+replace conditional woth polymorphism
+
