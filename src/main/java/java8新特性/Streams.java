@@ -32,7 +32,9 @@ public class Streams {
     public static void main(String[] args) {
       //  foreachdemo();
        // filterDemo();
-        Sorted();
+        //Sorted();
+        //MapDemo();
+        MatchDemo();
 
     }
 
@@ -64,6 +66,31 @@ public class Streams {
         System.out.println(stringList);
         List<String> collect = stringList.stream().sorted().collect(Collectors.toList());
         System.out.println(collect);
+    }
+
+
+    /**
+     * 中间操作 map 会将元素根据指定的 Function 接口来依次将元素转成另外的对象
+     */
+    public static  void MapDemo(){
+        stringList.stream().map(String::toUpperCase).forEach(System.out::println);
+        System.out.println("-------------------");
+        stringList.stream().map(String::toUpperCase).sorted((a,b)-> b.compareTo(a)).forEach(System.out::println);
+    }
+
+    /**
+     * Stream提供了多种匹配操作，允许检测指定的Predicate是否匹配整个Stream。所有的匹配操作都是 最终操作 ，
+     * 并返回一个 boolean 类型的值。
+     */
+    public static void MatchDemo(){
+        boolean any = stringList.stream().anyMatch(s -> s.startsWith("a"));
+        System.out.println(any);
+        boolean all = stringList.stream().allMatch(s -> s.startsWith("a"));
+        System.out.println(all);
+        boolean none = stringList.stream().noneMatch(s -> s.startsWith("a"));
+        System.out.println(none);
+
+
     }
 
 
