@@ -6,7 +6,9 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * @Author: fang
@@ -34,7 +36,9 @@ public class Streams {
        // filterDemo();
         //Sorted();
         //MapDemo();
-        MatchDemo();
+        //MatchDemo();
+        //countDemo();
+        reduceDemo();;
 
     }
 
@@ -89,6 +93,26 @@ public class Streams {
         System.out.println(all);
         boolean none = stringList.stream().noneMatch(s -> s.startsWith("a"));
         System.out.println(none);
+    }
+
+
+    /**
+     * 计数是一个 最终操作，返回Stream中元素的个数，返回值类型是 long
+     */
+    public static  void countDemo(){
+        long b = stringList.stream().filter(s -> s.startsWith("b")).count();
+        System.out.println(b);
+    }
+
+    /**
+     * 这是一个 最终操作 ，允许通过指定的函数来讲stream中的多个元素规约为一个元素，规约后的结果是通过Optional 接口表示的：
+     */
+    public static void  reduceDemo(){
+        Optional<String> reduce = stringList.stream().reduce((s1, s2) -> s1 + "#" + s2);
+        //reduce.ifPresent(System.out::println);
+        String s = reduce.toString();
+        System.out.println(reduce.get());
+
 
 
     }
