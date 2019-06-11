@@ -3,10 +3,8 @@ package java8新特性;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -38,9 +36,12 @@ public class Streams {
         //MapDemo();
         //MatchDemo();
         //countDemo();
-        reduceDemo();;
+        //reduceDemo();
+        stream串行和并行比较();
 
     }
+
+
 
 
     public  static void foreachdemo(){
@@ -114,8 +115,62 @@ public class Streams {
         System.out.println(reduce.get());
 
 
+        //stream demo
 
+        //// 字符串连接，concat = "abc"
+        String concat  = Stream.of("a", "b", "c").reduce("", String::concat);
+        System.out.println(concat );
+
+        // 求最小值，minValue = -3.0
+        double minValue = Stream.of(-1.5, 1.0, -3.0, -2.0).reduce(Double.MAX_VALUE, Double::min);
+        System.out.println(minValue);
+
+        // 求和，sumValue = 10, 有起始值
+        int sumValue = Stream.of(1, 2, 3, 4).reduce(0, Integer::sum);
+        System.out.println(sumValue);
+
+        // 求和，sumValue = 10, 无起始值
+        sumValue = Stream.of(1, 2, 3, 4).reduce(Integer::sum).get();
+        System.out.println(sumValue);
+
+        // 过滤，字符串连接，concat = "ace"
+        concat = Stream.of("a", "B", "c", "D", "e", "F").
+                filter(x -> x.compareTo("Z") > 0).
+                reduce("", String::concat);
+        System.out.println(concat);
     }
 
+
+    /**前面提到过Stream有串行和并行两种，串行Stream上的操作是在一个线程中依次完成，而并行Stream则是在多个线程上同时执行。
+     *唯一需要做的改动就是将 stream() 改为parallelStream()。
+     */
+    private static void stream串行和并行比较() {
+        //首先我们创建一个没有重复元素的大表：
+        int max = 1000000;
+        List<String> values = new ArrayList<>(max);
+        for (int i = 0; i < max; i++) {
+            UUID uuid = UUID.randomUUID();
+            values.add(uuid.toString());
+        }
+
+        //我们分别用串行和并行两种方式对其进行排序，最后看看所用时间的对比。
+        //Sequential Sort(串行排序)
+        //串行排序
+        long t0 = System.nanoTime();
+        long count = values.stream().sorted().count();
+        System.out.println(count);
+        long t1 = System.nanoTime();
+        long millis = TimeUnit.NANOSECONDS.toMillis(t1 - t0);
+        System.out.println(String.format("sequential sort took: %d ms", millis));
+
+        //Parallel Sort(并行排序)
+         t0 = System.nanoTime();
+         count = values.parallelStream().sorted().count();
+        System.out.println(count);
+         t1 = System.nanoTime();
+         millis = TimeUnit.NANOSECONDS.toMillis(t1 - t0);
+        System.out.println(String.format("parallel sort took: %d ms", millis));
+
+    }
 
 }
