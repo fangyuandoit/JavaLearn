@@ -37,7 +37,8 @@ public class Streams {
         //MatchDemo();
         //countDemo();
         //reduceDemo();
-        stream串行和并行比较();
+        //stream串行和并行比较();
+
 
     }
 
