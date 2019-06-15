@@ -1,8 +1,13 @@
 move method 142
-replace Temp with Query 120
 Extract Method 110
+replace Temp with Query 120
 replace type code with state/strategy
 replace conditional woth polymorphism 255
+replace parameter with method  292
+preserve whole object 288
 pull up field  320
+pull  up method 332
+introduce parameter object 295
+
 
 

@@ -1,0 +1,24 @@
+什么样的代码应该重构
+
+1 ： duplicated code 重复代码
+2: long method  过长函数
+3 larger class 过大的类
+4  long parameter list  过长参数类
+5:  divergent  change  发散式变化
+6 shotgun surgery 散弹式修改
+7 feature envy  依恋情结
+8 data clumps 数据泥团
+9 primative  obsession  基本类型偏执
+10  switch  statements    switch惊悚现身
+11  parallel inhertance hierarchies  平行继承体系
+12 lazy class    冗赘类
+13 speculative  generality   夸夸其谈未来性
+14 temporary filed  令人迷惑的暂时字段
+15 message chains  过度耦合的消息链
+16 middle man  中间人
+17 inappropriate  intimacy
+18 alternative  classes with  different interfaces  异曲同工的类
+19 incomplete library class  不完美的类库
+20 data class  纯稚的数据类
+21 refused bequest  被拒绝的遗赠
+22 comments  过多的注释
