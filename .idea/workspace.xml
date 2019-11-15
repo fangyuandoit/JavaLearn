@@ -4,7 +4,14 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="7a6ea14d-1eed-4455-862e-9de6628dd2ba" name="Default Changelist" comment="git idea" />
+=======
+    <list default="true" id="7a6ea14d-1eed-4455-862e-9de6628dd2ba" name="Default Changelist" comment="git idea">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java8新特性/OptionalsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java8新特性/OptionalsDemo.java" afterDir="false" />
+    </list>
+>>>>>>> ae0b91d79fc7b661ea28aaf6c4a440a8496bde29
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,6 +63,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/javaOfMyThink/JavaBaseEntityThink/UserEntityTest.java">
@@ -71,6 +79,23 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
               <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OptionalsDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java8新特性/OptionalsDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+>>>>>>> ae0b91d79fc7b661ea28aaf6c4a440a8496bde29
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,6 +103,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/javaOfMyThink/JavaBaseEntityThink/BaseEntity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,6 +113,18 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#314#315#0" expanded="true" />
                 <element signature="e#360#361#0" expanded="true" />
+=======
+      <file leaf-file-name="Optional.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Optional.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="119" column="34" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
+              <folding>
+                <element signature="e#3486#3487#0" expanded="true" />
+                <element signature="e#3544#3545#0" expanded="true" />
+                <element signature="e#8628#8629#0" expanded="true" />
+                <element signature="e#8680#8681#0" expanded="true" />
+>>>>>>> ae0b91d79fc7b661ea28aaf6c4a440a8496bde29
               </folding>
             </state>
           </provider>
@@ -108,12 +146,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/java的构想/JavaBaseEntity的构想/UserEntity.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/java的构想/JavaBaseEntity的构想/UserEntityTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/java的构想/JavaBaseEntity的构想/BaseEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/java/JavaBaseEntity的构想/UserEntityTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/javaOfMyThink/JavaBaseEntityThink/UserEntityTest.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/java8新特性/OptionalsDemo.java" />
+>>>>>>> ae0b91d79fc7b661ea28aaf6c4a440a8496bde29
       </list>
     </option>
   </component>
@@ -164,6 +206,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> ae0b91d79fc7b661ea28aaf6c4a440a8496bde29
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,15 +241,31 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="JavaBaseEntityThink" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="java8新特性" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+>>>>>>> ae0b91d79fc7b661ea28aaf6c4a440a8496bde29
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+=======
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+>>>>>>> ae0b91d79fc7b661ea28aaf6c4a440a8496bde29
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,7 +292,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.UserEntityTest (1)">
+=======
+  <component name="RunManager" selected="Application.OptionalsDemo">
+>>>>>>> ae0b91d79fc7b661ea28aaf6c4a440a8496bde29
     <configuration name="MyHashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="手写源码系列.MyHashMapTest" />
       <module name="JavaLearn" />
@@ -273,6 +339,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OptionalsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8新特性.OptionalsDemo" />
+      <module name="JavaLearn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8新特性.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -295,6 +372,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.MyHashMapTest" />
+<<<<<<< HEAD
       <item itemvalue="Application.UserEntityTest" />
       <item itemvalue="Application.UserEntityTest (1)" />
     </list>
@@ -302,6 +380,13 @@
       <list>
         <item itemvalue="Application.UserEntityTest (1)" />
         <item itemvalue="Application.UserEntityTest" />
+=======
+      <item itemvalue="Application.OptionalsDemo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OptionalsDemo" />
+>>>>>>> ae0b91d79fc7b661ea28aaf6c4a440a8496bde29
         <item itemvalue="Application.MyHashMapTest" />
       </list>
     </recent_temporary>
@@ -317,10 +402,16 @@
       <option name="presentableId" value="Default" />
       <updated>1554732804770</updated>
       <workItem from="1554732808368" duration="249000" />
+<<<<<<< HEAD
       <workItem from="1571992354470" duration="3975000" />
       <workItem from="1573740329838" duration="597000" />
       <workItem from="1573823825518" duration="228000" />
       <workItem from="1573824302399" duration="2975000" />
+=======
+      <workItem from="1571992354470" duration="6853000" />
+      <workItem from="1572251675572" duration="589000" />
+      <workItem from="1573006565721" duration="1428000" />
+>>>>>>> ae0b91d79fc7b661ea28aaf6c4a440a8496bde29
     </task>
     <task id="LOCAL-00001" summary="git idea">
       <created>1571994652304</created>
@@ -333,12 +424,31 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="8024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26515764" />
+=======
+    <option name="totallyTimeSpent" value="9119000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="right" id="RestServices" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Statistic" order="8" />
+      <window_info anchor="right" id="Database" order="3" />
+>>>>>>> ae0b91d79fc7b661ea28aaf6c4a440a8496bde29
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -351,7 +461,23 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3291815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+=======
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3291815" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293348" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293348" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+>>>>>>> ae0b91d79fc7b661ea28aaf6c4a440a8496bde29
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3291815" />
@@ -362,6 +488,7 @@
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3293348" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -371,6 +498,12 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="RestServices" order="9" />
+=======
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+>>>>>>> ae0b91d79fc7b661ea28aaf6c4a440a8496bde29
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,6 +543,20 @@
     <option name="LAST_COMMIT_MESSAGE" value="git idea" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netty_跟闪电侠学netty/NettyClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -442,6 +589,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="156">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
@@ -468,10 +616,27 @@
           <folding>
             <element signature="e#17228#17229#0" expanded="true" />
             <element signature="e#17285#17286#0" expanded="true" />
+=======
+        <state relative-caret-position="119">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="119" column="34" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
+          <folding>
+            <element signature="e#3486#3487#0" expanded="true" />
+            <element signature="e#3544#3545#0" expanded="true" />
+            <element signature="e#8628#8629#0" expanded="true" />
+            <element signature="e#8680#8681#0" expanded="true" />
+>>>>>>> ae0b91d79fc7b661ea28aaf6c4a440a8496bde29
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/javaOfMyThink/JavaBaseEntityThink/BaseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -498,6 +663,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8新特性/OptionalsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> ae0b91d79fc7b661ea28aaf6c4a440a8496bde29
         </state>
       </provider>
     </entry>
