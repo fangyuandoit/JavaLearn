@@ -1,4 +1,4 @@
-package 手写源码系列;
+package 手写源码系列.HashmapPackage;
 
 /**
  * @Author: fang
