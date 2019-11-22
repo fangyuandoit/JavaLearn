@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a6ea14d-1eed-4455-862e-9de6628dd2ba" name="Default Changelist" comment="git idea">
+    <list default="true" id="7a6ea14d-1eed-4455-862e-9de6628dd2ba" name="Default Changelist" comment="ReflectionToStringBuilder">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaOfMyThink/JavaBaseEntityThink/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaOfMyThink/JavaBaseEntityThink/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaOfMyThink/JavaBaseEntityThink/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaOfMyThink/JavaBaseEntityThink/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaOfMyThink/JavaBaseEntityThink/UserEntityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaOfMyThink/JavaBaseEntityThink/UserEntityTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,11 +40,20 @@
       <file leaf-file-name="UserEntityTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/javaOfMyThink/JavaBaseEntityThink/UserEntityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            <state relative-caret-position="429">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -74,15 +81,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseEntity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseEntity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/javaOfMyThink/JavaBaseEntityThink/BaseEntity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="28" column="88" selection-start-line="28" selection-start-column="88" selection-end-line="28" selection-end-column="88" />
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#542#543#0" expanded="true" />
                 <element signature="e#588#589#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
                 <element signature="e#732#733#0" expanded="true" />
                 <element signature="e#894#895#0" expanded="true" />
                 <element signature="e#958#959#0" expanded="true" />
@@ -107,9 +113,11 @@
       <file leaf-file-name="ToStringStyle.class" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.m2/repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar!/org/apache/commons/lang/builder/ToStringStyle.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="276">
               <caret line="113" selection-start-line="113" selection-end-line="113" />
               <folding>
+                <element signature="e#1954#1955#0" expanded="true" />
+                <element signature="e#1996#1997#0" expanded="true" />
                 <element signature="e#23700#23701#0" expanded="true" />
                 <element signature="e#23748#23749#0" expanded="true" />
               </folding>
@@ -156,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/main/java/javaOfMyThink/JavaBaseEntityThink/UserEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/javaOfMyThink/JavaBaseEntityThink/UserEntityTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/javaOfMyThink/JavaBaseEntityThink/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -234,14 +243,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaBaseEntityThink" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -383,7 +384,7 @@
       <workItem from="1573006565721" duration="1698000" />
       <workItem from="1573712822590" duration="784000" />
       <workItem from="1574306087427" duration="425000" />
-      <workItem from="1574410094478" duration="5287000" />
+      <workItem from="1574410094478" duration="5702000" />
     </task>
     <task id="LOCAL-00001" summary="git idea">
       <created>1571994652304</created>
@@ -392,11 +393,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571994652304</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ReflectionToStringBuilder">
+      <created>1574415877800</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574415877800</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15885000" />
+    <option name="totallyTimeSpent" value="16300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -422,10 +430,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293348" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293348" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.26599148" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3293348" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.26599148" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -471,7 +479,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="git idea" />
+    <MESSAGE value="ReflectionToStringBuilder" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReflectionToStringBuilder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -533,9 +542,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/java8新特性/OptionalsDemo.java">
@@ -659,11 +665,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaOfMyThink/JavaBaseEntityThink/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar!/org/apache/commons/lang/builder/ToStringStyle.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="276">
           <caret line="113" selection-start-line="113" selection-end-line="113" />
           <folding>
+            <element signature="e#1954#1955#0" expanded="true" />
+            <element signature="e#1996#1997#0" expanded="true" />
             <element signature="e#23700#23701#0" expanded="true" />
             <element signature="e#23748#23749#0" expanded="true" />
           </folding>
@@ -696,49 +725,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaOfMyThink/JavaBaseEntityThink/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/javaOfMyThink/JavaBaseEntityThink/UserEntityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        <state relative-caret-position="429">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javaOfMyThink/JavaBaseEntityThink/UserEntity.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javaOfMyThink/JavaBaseEntityThink/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="28" column="88" selection-start-line="28" selection-start-column="88" selection-end-line="28" selection-end-column="88" />
-          <folding>
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
