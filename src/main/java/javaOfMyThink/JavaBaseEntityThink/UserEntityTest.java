@@ -17,7 +17,7 @@ public class UserEntityTest {
 
         UserEntity userEntity =new UserEntity(1,"man","jack");
         System.out.println(userEntity.toString());
-//        System.out.println(userEntity.toJsonString());
+//      System.out.println(userEntity.toJsonString());
 
 
 
