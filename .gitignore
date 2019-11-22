@@ -18,6 +18,17 @@ HELP.md
 *.ipr
 /.idea/
 
+
+/target
+/.project
+/.settings
+/.classpath
+/.idea
+/.DS_Store
+*.iml
+/bin/
+
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
