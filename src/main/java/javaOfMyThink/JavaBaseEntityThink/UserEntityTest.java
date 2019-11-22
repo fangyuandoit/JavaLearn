@@ -13,7 +13,7 @@ public class UserEntityTest {
 
     public static void main(String[] args) {
 
-//        UserEntity userEntity = new UserEntity().builder().id(1).name("jack").gender("man").build();
+//     UserEntity userEntity = new UserEntity().builder().id(1).name("jack").gender("man").build();
 
         UserEntity userEntity =new UserEntity(1,"man","jack");
         System.out.println(userEntity.toString());
